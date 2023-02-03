@@ -17,14 +17,17 @@ repita
       leia (quilometro)
       metro <- quilometro * 1000
       escreval(quilometro ," Quilometro (s) equivale a", metro , " metro (s)")
+      escreval ("")
    senao
       se opcao = "2" entao
          escreval ("Digite o valor do metro cúbico a ser convertido em litro")
          leia (litro)
          metrocubico <- litro / 1000
          escreval (metrocubico ," metros cubicos equivalem a", litro , " litro(s)")
+         escreval ("")
       fimse
    fimse
 ate opcao = "3"
 escreval ("Você escolheu sair do programa")
+escreval ("")
 fimalgoritmo
